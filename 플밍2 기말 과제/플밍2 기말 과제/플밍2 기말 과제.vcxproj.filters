@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BattleSystem">
+      <UniqueIdentifier>{ea63edd7-b1f1-4b01-9c3f-7f7e38fa0737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8c212354-f1d7-4090-8170-c86169dece63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{f6411911-219f-4ed9-8992-849de3a589ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{e046c9d0-564c-41cc-8e51-82ed82265ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene">
+      <UniqueIdentifier>{3eedd2d3-ce3f-432e-96f3-9aa22de20604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9398d805-854f-4e3d-a39e-57af1302d0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Boss1">
+      <UniqueIdentifier>{4de54361-a6ca-41ba-8978-6073cf986480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Boss2">
+      <UniqueIdentifier>{2c3577a8-7938-4311-829e-7c0b757d97f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Hero">
+      <UniqueIdentifier>{c010773f-48d4-4b5c-949f-d4962ed1ef04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Inventory">
+      <UniqueIdentifier>{673e881b-33e6-4dba-87e0-3d79f1c42c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Monster">
+      <UniqueIdentifier>{81c11abf-d2cf-43ec-9c68-e9c94b621ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MonsterType1">
+      <UniqueIdentifier>{3a14016f-db1e-40fb-9a58-e8e56065987b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MonsterType2">
+      <UniqueIdentifier>{41025b3e-9951-4bd9-ae9f-f1ecddc92891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MonsterType3">
+      <UniqueIdentifier>{a7960bbc-1599-4771-8026-94ebfee01717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\BattleScene">
+      <UniqueIdentifier>{633ecf27-64cd-4ec1-9796-69d18cccf21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\CampScene">
+      <UniqueIdentifier>{d202bb02-e447-4b9c-a744-4f77970b3770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\MainScene">
+      <UniqueIdentifier>{005ceca7-79cd-4fdf-a950-7a446680ac81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\StartScene">
+      <UniqueIdentifier>{40edda7d-b677-4126-a421-d559e8cc647b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\Scene">
+      <UniqueIdentifier>{1f76958b-4435-4b5e-9a82-6861f2899e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Info">
+      <UniqueIdentifier>{9aae2ffd-3645-4fdf-b39d-554828c823e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\InGameUI">
+      <UniqueIdentifier>{e37e4319-6b55-434a-8f8e-61aad6b81aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Screen">
+      <UniqueIdentifier>{cc8e57ec-bee8-47b1-b0ca-e64b6c7d2827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TextImage">
+      <UniqueIdentifier>{660acf02-04db-4a0e-bdc5-2bd08879b1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGameScene\GameEnd">
+      <UniqueIdentifier>{728cba22-f633-48dc-b254-15c1d6e44a48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleSystem.cpp">
+      <Filter>BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterType1.cpp">
+      <Filter>GameObject\MonsterType1</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterType2.cpp">
+      <Filter>GameObject\MonsterType2</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterType3.cpp">
+      <Filter>GameObject\MonsterType3</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>GameObject\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.cpp">
+      <Filter>GameObject\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>GameObject\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>GameObject\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>InGameScene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CampScene.cpp">
+      <Filter>InGameScene\CampScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>InGameScene\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>InGameScene\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>InGameScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>UI\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameUI.cpp">
+      <Filter>UI\InGameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>UI\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="TextImage.cpp">
+      <Filter>UI\TextImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>InGameScene\GameEnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterType1.h">
+      <Filter>GameObject\MonsterType1</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterType2.h">
+      <Filter>GameObject\MonsterType2</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterType3.h">
+      <Filter>GameObject\MonsterType3</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>GameObject\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>GameObject\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>GameObject\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>GameObject\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>InGameScene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CampScene.h">
+      <Filter>InGameScene\CampScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>InGameScene\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>InGameScene\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>InGameScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>UI\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameUI.h">
+      <Filter>UI\InGameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>UI\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TextImage.h">
+      <Filter>UI\TextImage</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>InGameScene\GameEnd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
